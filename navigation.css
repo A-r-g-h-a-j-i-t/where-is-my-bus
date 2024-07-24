@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #9698c3;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Work+Sans,ital;
+}
+.navbar{
+    padding-top: 4px;
+    background-color:#5a5e9a;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.text{
+    color: #23263b;
+}
+.home{
+    display: inline-block;
+    
+}
+.text{
+    font-size: 10px;
+}
+.text2{
+    font-size: 10px;
+}
+.navsearch{
+    margin-right: 30px;
+    position: relative;
+    top: 8px;
+    height: 24.5px;
+    background-color: #ffff;
+    display: flex;
+    border-radius: 4px;
+    width: 500px;
+}
+.navsearch input{
+    height: 25px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    width: 500px;
+}
+.searchicon{
+    position: relative;
+    left: 0.1px;
+}
+.setting{
+    margin-right: 50px;
+}
+.loc{
+    display: flex;
+}
+p{
+    font-size: 14px;
+    position: relative;
+    right: 40px;
+}
+.map{
+    width: 56%;
+    height: 400px;
+    background-image: url(images/9864.jpg) ;
+    background-size: cover;
+    /* background-color: aliceblue; */
+    position: relative;
+    left: 5px;
+    top: 30px;
+    border-radius: 4px;
+}
+.side{
+    /* background-color: aliceblue; */
+    width: 30%;
+    height: 380px;
+    position: relative;
+    top: 40px;
+    right: 200px;
+    display: inline-block;
+}
+.content2{
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    width : 100%;
+    height: 50px;
+    background-color:#d6d6e7;
+    margin-bottom: 3px;
+  
+   
+    
+}
+.bus{
+    position: relative;
+    top: 12px;
+}
+.history{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 12px;
+}
